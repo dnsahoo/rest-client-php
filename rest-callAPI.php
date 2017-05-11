@@ -1,3 +1,4 @@
+<?php
 // Method: POST, PUT, GET etc
 // Data: array("param" => "value") ==> index.php?param=value
 
@@ -34,3 +35,5 @@ function CallAPI($method, $url, $data = false)
 
     return $result;
 }
+
+?>
